@@ -20,7 +20,7 @@ const dbConnection = () => __awaiter(void 0, void 0, void 0, function* () {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
-        console.log('Database connected 💻');
+        console.log('Database is connected 💻');
     }
     catch (error) {
         console.log(error);
